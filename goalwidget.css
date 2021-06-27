@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family={{fontName}}');
+@font-face {
+  font-family: "Pixellari";
+  src: url("https://s3.us-east-2.amazonaws.com/streamlabs-designers/azure/1511910508Pixellari.ttf");
+}
+html,body{
+		margin: 0;
+		padding: 0;
+		color: #FFF;
+  		text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+
+	}
+	#main {
+		width:428px;
+		height:	130px;
+		position: absolute;
+		top: 50px;
+		left: 0;
+	}
+	#inner {
+		width:412px;
+		height:	109px;
+		position: absolute;
+		top: 0;
+		left: 8px;
+
+	}
+	#bars {
+		width: 376px;
+		height: 10px;
+		position: absolute;
+		left: 201px;
+		top: 18px;
+		transform: translateX(-50%);
+        filter:hue-rotate({{hue}}deg);
+	}
+	.bar {
+		position: absolute;
+		top: 10px;
+		left: 0;
+	}
+	#barCont {
+		width: 0;
+		height: 33px;
+		position: absolute;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+    transition: all 1s ease;
+	}
+	#filledBar {
+		z-index: 9;
+	}
+    #bars2 {
+		width: 376px;
+		height: 10px;
+		position: absolute;
+		left: 201px;
+		top: 68px;
+		transform: translateX(-50%);
+    	filter:hue-rotate({{hue}}deg);
+	}
+	.bar2 {
+		position: absolute;
+		top: 10px;
+		left: 0;
+	}
+	#barCont2 {
+		width: 0;
+		height: 33px;
+		position: absolute;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+    transition: all 1s ease;
+	}
+	#filledBar2 {
+		z-index: 9;
+	}
+    #bars3 {
+		width: 376px;
+		height: 10px;
+		position: absolute;
+		left: 201px;
+		top: 118px;
+		transform: translateX(-50%);
+    	filter:hue-rotate({{hue}}deg);
+	}
+	.bar3 {
+		position: absolute;
+		top: 10px;
+		left: 0;
+	}
+	#barCont3 {
+		width: 0;
+		height: 33px;
+		position: absolute;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+    transition: all 1s ease;
+	}
+	#filledBar3 {
+		z-index: 9;
+	}
+	#bgBar {
+		z-index: 1;
+	}
+    #bgBar {
+		z-index: 1;
+	}
+	#title, #current, #current2, #current3, #total, #total2, #total3, #user_pic, #goal-end-date {
+		position: absolute;
+	}
+
+	#title {
+	padding: 50;	
+	left: {{textho}}px;
+    width: 500px;
+	top: {{texthe}}px;
+    filter:drop-shadow(8px 8px 8px black);
+    font-family:{{fontName}};
+    color:{{fontColor}};
+ 	font-weight:{{fontWeight}};
+ 	font-size:{{fontSize}}px;
+    background: linear-gradient(45deg, {{fontColor3}}, {{fontColor2}}, {{fontColor}}, {{fontColor2}}, {{fontColor3}});
+  	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+    animation: Gradient 3s ease infinite;
+	}
+	#current, #current2, #total, #total2, #user_pic, #goal-end-date, #current3, #total3 {
+		bottom: 4px;
+	}
+	#current {
+    left: 12px;
+    top: 0px;
+    width: 300px;
+    font-family:{{fontName}};
+    font-weight:{{fontWeight}};
+    font-size: 24px;
+	}
+    #current2 {
+    font-family:{{fontName}};
+    font-weight:{{fontWeight}};
+    left: 13px;
+    top: 50px;
+    width: 300px;
+    font-size: 24px;
+	}
+    #current3 {
+    font-family:{{fontName}};
+    font-weight:{{fontWeight}};
+    left: 13px;
+    top: 100px;
+    width: 300px;
+    font-size: 24px;
+	}
+	#total {
+    font-family:{{fontName}};
+      font-weight:{{fontWeight}};
+    left: 170px;
+    top: 0px;
+    width: 300px;
+    font-size: 22px;
+	}
+    #total2 {
+    left: 170px;
+    top: 50px;
+    width: 300px;
+    font-family:{{fontName}};
+    font-weight:{{fontWeight}};
+    font-size: 22px;
+	}
+    #total3 {
+    left: 170px;
+    top: 100px;
+    width: 300px;
+    font-family:{{fontName}};
+    font-weight:{{fontWeight}};
+    font-size: 22px;
+	}
+    #user_pic {
+    text-align: center;
+		left: 15px;
+		top: 5px;
+    width: 70px;
+    height: 70px;
+    z-index: 6;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+   }
+   #vid {
+      z-index: 9999;
+      position: absolute;
+      width:540px;
+	  height:200px;
+  	  left: 0px;
+      top: 0;
+      display: none;
+   }
+@keyframes Gradient {
+	0%,100% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+}
