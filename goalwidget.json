@@ -1,0 +1,137 @@
+{
+  "goalrange": {
+    "type": "dropdown",
+    "label": "Valores Atuais",
+    "value": "Desde o Início",
+    "options": {
+      "week": "Última Semana",
+      "month": "Último Mês",
+      "total": "Desde o Início"
+    }
+  },
+  "goaltype": {
+    "type": "dropdown",
+    "label": "Meta 1",
+    "value": "Seguidores",
+    "options": {
+      "Seguidores": "Seguidores",
+      "Bits": "Bits",
+      "Donations": "Doações",
+      "Inscritos": "Inscritos"
+    }
+  },
+  "goaltype2": {
+    "type": "dropdown",
+    "label": "Meta 2",
+    "value": "Seguidores",
+    "options": {
+      "Seguidores": "Seguidores",
+      "Bits": "Bits",
+      "Donations": "Doações",
+      "Inscritos": "Inscritos"
+    }
+  },
+    "goaltype3": {
+    "type": "dropdown",
+    "label": "Meta 3",
+    "value": "Seguidores",
+    "options": {
+      "Seguidores": "Seguidores",
+      "Bits": "Bits",
+      "Donations": "Doações",
+      "Inscritos": "Inscritos"
+    }
+  },
+   "followergoal":{
+    "type": "text",
+    "label": "Meta de Seguidores",
+    "value": ""
+  },
+  "cheergoal":{
+    "type": "text",
+    "label": "Meta de Bits",
+    "value": ""
+  },
+  "donogoal":{
+    "type": "text",
+    "label": "Meta de Doações",
+    "value": ""
+  },
+  "subgoal":{
+    "type": "text",
+    "label": "Meta de Inscritos",
+    "value": ""
+  },
+  "fontName": {
+    "type": "googleFont",
+    "label": "Fonte",
+    "value": "Montserrat"
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Tamanho da Fonte",
+    "value": 24
+  },
+  "fontWeight": {
+    "label": "Peso da Fonte",
+    "type": "dropdown",
+    "value": "400",
+    "options": {
+      "100": "Thin (100)",
+      "300": "Light (300)",
+      "400": "Regular (400)",
+      "500": "Medium (500)",
+      "700": "Bold (700)",
+      "900": "Black (900)"
+    }
+  },
+  "fontColor": {
+    "type": "colorpicker",
+    "label": "Cor #1",
+    "value": "hex(#0000ff)"
+  },
+  "fontColor2": {
+    "type": "colorpicker",
+    "label": "Cor #2",
+    "value": "hex(#0000ff)"
+    },
+  "fontColor3": {
+    "type": "colorpicker",
+    "label": "Cor #3",
+    "value": "hex(#0000ff)"
+  }, 
+	"texthe": {
+    "type": "slider",
+    "label": "Posição do Texto - Vertical",
+    "value": 0,
+    "max": 400,
+    "min": -400,
+    "steps": 1
+  },
+	"textho": {
+    "type": "slider",
+    "label": "Posição do Texto - Horizontal",
+    "value": 0,
+    "max": 400,
+    "min": -400,
+    "steps": 1
+  },
+	"hue":{
+    "type": "slider",
+    "label": "Matiz de Cor",
+    "value": 0,
+    "max": 180,
+    "min": 0,
+    "steps": 5
+   },
+  "goalVideo": {
+    "type": "video-input",
+    "label": "Video da Meta Atingida",
+    "value": "Default text"
+  },
+  "goalSound": {
+    "type": "sound-input",
+    "label": "Som da Meta Atingida",
+    "value": "Default text"
+  }
+}
